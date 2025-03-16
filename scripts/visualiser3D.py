@@ -8,7 +8,7 @@ import csv
 x, y, z = [], [], []
 
 # Reading the CSV file
-with open("RandomWalk3D.csv") as f:
+with open("../data/RandomWalk3D.csv") as f:
     reader = csv.reader(f)
     next(reader)  # Skip the header
     for row in reader:

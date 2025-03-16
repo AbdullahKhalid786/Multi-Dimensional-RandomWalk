@@ -53,6 +53,6 @@ int main() {
 	std::vector<Point3D> path;
 
 	path = RandomWalk(InitialPoint);
-	exportToCSV(path, "RandomWalk3D.csv");
+	exportToCSV(path, "../data/RandomWalk3D.csv");
 	return 0;
 }
