@@ -1,0 +1,14 @@
+# Ignore build files
+build/
+
+# Ignore virtual environment
+env/
+
+# Ignore matplotlib cache
+__pycache__/
+
+# Ignore temporary files
+*.o
+*.out
+*.log
+
